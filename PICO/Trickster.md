@@ -1,7 +1,9 @@
-#Trickster - Web Exploitation
+# Trickster - Web Exploitation
 
-##Description
+## Description
 I found a web app that can help process images: PNG images only!  
 
-##Hint
+## Hint
 None
+
+
