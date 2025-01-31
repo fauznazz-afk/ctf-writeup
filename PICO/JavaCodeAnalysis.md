@@ -15,7 +15,6 @@ Website can be accessed here!.
 3. The 'controllers', 'services' and 'security' java packages in the given source code might need your attention. We've provided a README.md file that contains some documentation.  
 4. Upgrade your 'role' with the new (cracked) JWT. And re-login for the new role to get reflected in browser's localStorage.  
 
-![alt_text](?raw=true)
 ## Solution  
 
 #### 1.  
@@ -23,7 +22,7 @@ Pertama masuk dengan credentials yang telah di berikan oleh PICOCTF, lalu downlo
 ![alt_text](https://github.com/fauznazz-afk/ctf-writeup/blob/main/Documentation/JavaCodeAnalysis/Screenshot%20From%202025-01-31%2009-06-54.png?raw=true)
 
 ### 2.  
-Setelah itu, baca hint yang diberikan, lakukan inspect element dan cari pada kolom storage untuk mendapatkan JWT Signing key, lihat pada `role` dan `userId` karena dua hal tersebut sangat menarik dimana kedua fields tersebut menentukan akses dan identifikasinya.  
+Setelah itu, baca hint yang diberikan, lakukan inspect element dan cari pada kolom storage untuk mendapatkan JWT Signing key, lihat pada `role` dan `userId` karena dua hal tersebut sangat menarik dimana kedua fields tersebut menentukan akses dan identifikasinya. Copy Auth-token untuk nantinya di modifikasi. 
 ![alt_text](https://github.com/fauznazz-afk/ctf-writeup/blob/main/Documentation/JavaCodeAnalysis/Screenshot%20From%202025-01-31%2009-07-32.png?raw=true)
 
 ### 3. 
