@@ -11,7 +11,6 @@ Do you know how to modify cookies?
 
 ### 1.
 Pertama kita ke web yang diberi oleh picoCTF, dan akan tampil halaman seperti berikut. disini tidak ada apa-apa selain tomobol conitinue as guest  
-[alt_text](?raw=true)
 [alt_text](https://github.com/fauznazz-afk/ctf-writeup/blob/main/Documentation/PowerCookie/Screenshot%20From%202025-03-08%2009-25-18.png?raw=true)
 
 ### 2.
